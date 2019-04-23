@@ -16,7 +16,6 @@ bool is_sorted_by(int* array, int arrayLength, bool *compare(int, int))
     
     for (int i = 0; i < arrayLength; i++) {
         if (compare(prev, array[i])) {
-            printf("soon\n");
             return false;
         }
         prev = array[i];
